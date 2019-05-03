@@ -1,0 +1,308 @@
+body {
+    padding:0 ;
+    margin:0 ;
+    font-family: arial, helvetica,sans-serif ;
+   }
+   html,body {
+       background-color:#dddddd;
+       margin:0;
+       padding:0;
+   }
+
+   
+   header {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        float:left;
+        padding: 10px 10px 5px 15px;
+        margin-left: 20%;
+        color: #ffffff;
+        font-size: 12px;
+        background-color: #0cb4b9;
+   }
+   #buttons {
+       margin: 30px, 0, 10px, 0;
+   }
+   div.container {
+       max-width:1200px;
+       margin: auto;
+       padding: 0 30px 0 0;
+   }
+
+   .nav {
+    padding: 20px 20px 30px 0;
+    color: #777777 ;
+    background-color:#ffffff;
+    list-style: none;
+    text-align:right;
+ 
+}
+
+    .nav > li {
+        display:inline-block;
+        padding: 0 25px 0 25px;
+        font-size: 20px;
+}
+
+    .nav > li > a {
+        text-decoration: none;
+        color: #777777;
+}
+.nav > li > a:hover {
+        color:#0cb4b9;
+
+}
+    
+h2 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding:10px ;
+    color: #0cb4b9;
+    margin-right: 10px;
+    border-bottom: 3px solid #dddddd;  
+}
+
+#main-bio 
+{
+   margin-left: 280px;
+   background: #ffffff;
+   padding:40px;
+   float: left;
+   width: 620px;
+   color: #777777   
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#bio-image 
+{
+    float: left;   
+}
+.portfolio{
+    padding: 10px;
+    font-size:80px;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+   
+}
+
+
+.contact-info 
+{
+    margin:0 auto;
+    background: #ffffff !important;
+    color: #777777;
+    text-transform:uppercase;
+    width: 960px;
+    length: 500px;
+    padding: 10px;
+    
+}
+.container h1 
+{
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 10px 10px 3px 10px;
+    margin:0 auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    background-color: #0cb4b9;
+    width:150px;
+    height:50px;
+    float:left;
+
+}
+
+.contact-info h2 
+{
+    font-size:20px;
+    color: #0cb4b9;
+    line-height: 10px;
+    padding:20px;
+    margin:0;
+    border-bottom: 3px solid #dddddd;
+}
+
+.form-group {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#777777;
+    width:960px;
+    padding:5px;
+    line-height:10px;
+    text-transform: capitalize;
+    
+
+}
+.input-name {
+    width:920px;
+    padding: 5px;
+    margin:10px;
+    box-sizing: border-box;
+    
+}
+.input-email {
+    width:920px;
+    padding:5px;
+    margin:10px;
+    box-sizing: border-box;
+}
+.input-message {
+    width:920px;
+    height: 260px;
+    padding: 5px;
+    margin:10px;
+    box-sizing: border-box;
+   resize:none;
+}
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #0cb4b9;
+    color:#f2f2f2;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin:10px;
+    
+}
+
+.portfolio {
+    width:960px;
+    height:660px;
+    margin: 30px;
+    background: #ffffff;
+    border-bottom: 3px solid #dddddd;
+    
+}
+   .img {
+       width:210px;
+       height:150px;
+       padding:15px;
+       margin: 10px;
+      
+    }
+   
+footer {
+    background-color:gray;
+    border-color: #0cb4b9 ;
+}
+
+@media screen and (max-width: 980px){
+   #main-bio{
+       margin: auto;
+   }
+   .header{
+       
+   }
+
+  h1 {
+      margin-right: 30px;
+     float: left;
+  }
+  
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+	h1{
+        margin-right:30px;
+        margin:auto;
+        padding: 16px;
+        padding-left: 0;
+	}
+
+	nav{
+        width: 250%;
+    }
+    .clearfix{
+        padding: 10px;
+    }
+
+	.container{
+		float:none;
+		width:600px;
+		background-color:white;
+		 margin-left: auto;
+		 margin-right:auto;
+    }
+   
+
+	
+
+}
+
+
+@media screen and (max-width:640px){
+	.h1{
+		font-size:10px;
+        margin-left: 45%;
+        width: 100%;
+    }
+    header {
+        position: static;
+        width: 100%;
+        margin: auto;
+        font-size: 30px;
+        padding: 2px;
+    }
+
+    #button {
+        margin-right: 40%;
+        width: 100%;
+        padding: 10px;
+    }
+    
+	#main-bio {
+        width: 80%;
+        margin-left: 15%;
+        padding: 0;
+    }
+	.bio-image{
+        margin-left: 20%;
+        width: 50%;
+        height: 80%;
+    }
+    img {
+        width: 460px;
+    }
+    .container {
+        width: 85%;
+    }
+    .contact-info {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .input-name {
+        width: 50%;
+        
+    }
+    .input-email {
+        width: 50%;
+    }
+    .input-message{
+        width: 50%;
+    }
+
+    .portfolio {
+        width: 60%;
+        height: 100%;
+        padding: 0;
+        margin: auto;
+        font-size: 40px;
+    }
+    .img{
+        width: 300px;
+        height: 250px;
+
+    }
+	
+}
